@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(174, 146, 201);
+    padding: 20px;
+    background: #F7FAFD;
+}
+
+.item {
+    margin-bottom: 7px;
+}
+
+.item a {
+    color: #77838F;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.item a.active {
+    color: #0F70EB;
+}
