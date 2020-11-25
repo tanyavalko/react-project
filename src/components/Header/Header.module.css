@@ -1,5 +1,7 @@
 .header {
     grid-area: h;
+    display: flex;
+    justify-content: space-between;
     background-color:#EDF3FF;
     color: #0F70EB;
     padding: 10px;
@@ -9,4 +11,13 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.loginBlock a{
+    text-decoration: none;
+    color: #77838F;
+}
+
+.loginBlock a.active {
+    color: #0F70EB;
 }
